@@ -1,7 +1,7 @@
-.nav {
-  background-color:darkgoldenrod; 
-  }  
-
+.navbar-custom {
+    background-color:darkgoldenrod;
+    padding: 0px;
+    padding-left: 10px;
 
 body {
     display: flex;
@@ -16,9 +16,32 @@ body {
     flex: 1;
   }
   
-  article {
-    display: flex;
-    padding: 100px;
+  h2 {
+    margin-top: 80px;
+  }
+
+   
+/* Contact page: image position and contact form css instructions  */
+  img.align-right {    
+    float: right;
+    margin: 50px;
+    margin-right: 200px;
+  }
+
+  fieldset {
+    width: 510px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    line-height: 1.6 em;
+  }
+
+  .input[type="text"] {
+    width: 120px;
+    border: 1px solid #d6d6d6;
+    border-radius: 28%;
+    padding: 2px;
+    outline: none;
   }
 
 
@@ -45,7 +68,7 @@ body {
   }
   
   .container {
-    padding-top: 60px;
+    padding-top: 10px;
     padding-bottom: 30px;
   }
   
@@ -54,13 +77,13 @@ body {
     flex-direction: column;
     text-align: top;
     justify-content: right;
-    
   }  
 
   hr {
     /* add some fancy styling to the horizontal lines */
     width: 75%;
-    border: 1.5px solid #ddd;
+    border: 1.5px solid;
+    border-color:burlywood;
     border-radius: 50%;
   }
   
