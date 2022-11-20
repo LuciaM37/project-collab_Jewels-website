@@ -123,6 +123,7 @@ body {
   #go-top-button {
     width: 50px;
     height: 50px;
+    background-color:rgb(109, 28, 28);
     display: none;  /* Hidden by default */
     position: fixed;  /* Fixed/sticky position */
     bottom: 20px;  /* Place the button 20px from the bottom of the page */
