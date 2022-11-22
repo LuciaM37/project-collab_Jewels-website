@@ -14,3 +14,8 @@ function scrollFunction() {
 function topFunction() {
   $(window).scrollTop(0)
 }
+
+//Alert after clicking button "Send" in Contact form
+function myFunction() {
+  alert("Thank you for contacting me!");
+}
