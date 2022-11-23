@@ -2,6 +2,7 @@
     background-color:darkgoldenrod;
     padding: 0px;
     padding-left: 10px;
+}
 
 body {
     display: flex;
@@ -15,7 +16,7 @@ body {
   main {
     flex: 1;
   }
-  
+
   h2 {
     margin-top: 80px;
   }
@@ -44,29 +45,30 @@ body {
     outline: none;
   }
 
-
   #carouselExampleIndicators img {
     width: 100%;
     height: calc(100vh - 58px - 50px);
     object-fit:contain;
   }
-  
+
   #second-navbar {
     background-color:darkgoldenrod;
     display: flex;
   }
   
   #second-navbar a {
-    height: 50px;
+    height: 30px;
     flex: 1;  /* all of these <a> elements will "grow" an equal amount (so they all have an equal width) */
     display: flex;  /* allows use of "justify-content" and "align-items" properties */
     justify-content: center;  /* horizontally centers the contents (the text within) */
     align-items: center; /* vertically centers the contents (the text within) */
+    
   }
   #second-navbar a:hover {
     background-color:darkgoldenrod(0, 0, 0, 0.1);  /* change color when hover over the link */
   }
   
+
   .container {
     padding-top: 10px;
     padding-bottom: 30px;
@@ -76,14 +78,14 @@ body {
     display: flex;
     flex-direction: column;
     text-align: top;
-    justify-content: right;
+    justify-content: right; 
   }  
 
   hr {
     /* add some fancy styling to the horizontal lines */
     width: 75%;
     border: 1.5px solid;
-    border-color:burlywood;
+    border-color:burlywood ;
     border-radius: 50%;
   }
   
@@ -131,3 +133,6 @@ body {
     z-index: 99;  /* Make sure it does not overlap */
     border-radius: 50%;  /* makes it round (circle if width and height are the same) */
   }
+
+
+ 
