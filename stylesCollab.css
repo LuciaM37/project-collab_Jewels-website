@@ -26,14 +26,16 @@ body {
   img.align-right {    
     float: right;
     margin: 50px;
-    margin-right: 200px;
+    margin-top: 100px;
+    margin-right: 500px;
+    
   }
 
   fieldset {
     width: 510px;
     float: left;
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 100px;
+    margin-left: 400px;
     line-height: 1.6 em;
   }
 
@@ -47,9 +49,8 @@ body {
 
   #carouselExampleIndicators img {
     width: 100%;
-    height: calc(100vh - 58px - 50px);
+    height: calc(80vh - 58px - 50px);
     object-fit:contain;
-  }
 
   #second-navbar {
     background-color:darkgoldenrod;
