@@ -35,7 +35,7 @@ body {
 
   #carouselExampleIndicators img {
     width: 100%;
-    height: calc(80vh - 58px - 50px);
+    height: calc(100vh - 58px - 50px);
     object-fit:contain;
   }
 
