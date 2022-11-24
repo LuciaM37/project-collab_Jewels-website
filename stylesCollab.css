@@ -33,51 +33,7 @@ body {
 
   }
 
-/* Contact page: image position and contact form css instructions  */
-.container {
-  display: flex;
-  
-}
-
-.div-image {
-    float: right;
-    margin: 50px;
-    margin-top: 100px;
-    margin-right: 500px; 
-  
-}
-   
-  .div-fieldset {
-    position: absolute;
-    width: 510px;
-    float: left;
-    margin-top: 100px;
-    margin-left: 400px;
-    line-height: 1.6 em;
-  }
-
-
-  .input[type="text"] {
-    width: 120px;
-    border: 1px solid #d6d6d6;
-    border-radius: 28%;
-    padding: 2px;
-    outline: none;
-  }
-
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
-
-  /*create equal columns that sit next to each other */
-  .column {
-    flex-direction: 50%;
-    padding: 0 4px;
-  }
-
-  #carouselExampleIndicators img {
+#carouselExampleIndicators img {
     width: 100%;
     height: calc(100vh - 58px - 50px);
     object-fit:contain;
