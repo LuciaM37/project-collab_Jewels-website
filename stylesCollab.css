@@ -17,8 +17,10 @@ body {
     flex: 1;
   }
 
-  h2 {
+ h2 {
     margin-top: 80px;
+    color: black;
+    font-size: 25px;
   }
 
    
@@ -51,6 +53,7 @@ body {
     width: 100%;
     height: calc(80vh - 58px - 50px);
     object-fit:contain;
+  }
 
   #second-navbar {
     background-color:darkgoldenrod;
