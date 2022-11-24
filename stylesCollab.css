@@ -58,9 +58,10 @@ body {
   }
   
 
-  .container {
+  #section-1 {
     padding-top: 10px;
     padding-bottom: 30px;
+    text-align: center;
   }
   
   h3 {
