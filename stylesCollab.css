@@ -66,6 +66,7 @@ body {
     display: flex;  /* allows use of "justify-content" and "align-items" properties */
     justify-content: center;  /* horizontally centers the contents (the text within) */
     align-items: center; /* vertically centers the contents (the text within) */
+    font-size: 22px;
     
   }
   #second-navbar a:hover {
