@@ -84,8 +84,43 @@
       <h2>Contact me</h2>
       <h5>I'd love to hear from you!<br/>
       Please send me an email through this contact form and I'll get back to you as soon as possible. </h5>
+      <br>
+      
+      <!-- shan form  --> 
+      
+      <div class="contact-container">
+        <div class="image">
+            <img src="IMG_Contact.jpeg">
+        </div>
+        <div class="container">
+            <form action="action_page.php">
     
-
+                <label for="fname">Full Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Email address..">
+    
+                <label for="lname">Contact Number</label>
+                <input type="text" id="number" name="number" placeholder="Number..">
+            
+                <label for="reason-contact">Reason for Contacting</label>
+                <select id="reason-contact" name="reason-contact">
+                  <option value="#">Custom Jewellery</option>
+                  <option value="#">Engraving/Personalisation</option>
+                  <option value="#">Wholesale/Partenership</option>
+                </select>
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:80px"></textarea>
+            
+                <input type="submit" value="Submit" onclick="myFunction()">
+            </form>
+        </div>
+    </div>
+      
+      <!-- End shan form  --> 
+      
       <section>
         <img src="./imagesCollab\IMG_Contact.jpg" width="400" height="300" class="align-right medium" />
 
