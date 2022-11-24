@@ -150,4 +150,71 @@ body {
   }
 
 
+/*shan form*/
+
+/*contact us section*/
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid darkgoldenrod;
+    border-radius: 4px;
+}
+
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 25px;
+    
+  }
+
+img {
+    max-width: 100%;
+    border-radius: 4px; /* Rounded borders */
+}
+
+.image {
+    flex-basis: 100%;
+    margin: 10px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 15px; /* Some padding */ 
+    border: 1px solid darkgoldenrod;
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+    padding: 5px;
+    color: black;
+    border: 2px solid darkgoldenrod;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #f5ebde;
+    border-radius: 4px;
+  }
+  
+  /* When moving the mouse over the submit button, */
+  input[type=submit]:hover {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+  }
+
+
+
  
